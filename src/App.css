@@ -230,3 +230,12 @@ body {
   .timeline__header { flex-direction: column; }
   .certs__grid { grid-template-columns: 1fr; }
 }
+
+/* COMPETENCIES */
+.competencies { display: flex; flex-direction: column; gap: 2rem; }
+.comp__block { border-left: 2px solid var(--border); padding-left: 1.5rem; }
+.comp__area {
+  font-family: var(--mono); font-size: 0.75rem; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--cyan); margin-bottom: 0.75rem; font-weight: 500;
+}
+.comp__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
